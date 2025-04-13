@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   LineChart,
   Line,
@@ -9,7 +9,6 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from 'recharts';
-import { useEffect, useState } from 'react';
 
 const fullData = [
   { time: '12AM', kWh: 0.4 },
