@@ -1,0 +1,13 @@
+{
+    "status": {
+      "temperature": 22.5,
+      "humidity": 48,
+      "energy": 1.2,
+      "hvacMode": "cooling",
+      "technician": {
+        "status": "En route",
+        "eta": "15 min"
+      }
+    }
+  }
+  
